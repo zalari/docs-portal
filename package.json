@@ -1,0 +1,17 @@
+{
+  "name": "@zalari/docs-portal",
+  "version": "0.1.0",
+  "description": "Generates a static index.html file providing iframe based access to documents in subfolders relative to it.",
+  "bin": {
+    "docs-portal": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zalari <info@zalari.de>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "yargs": "^6.6.0"
+  }
+}
