@@ -47,9 +47,7 @@
                 </div>
                 <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
                     <% for(var i = 0; i < folders.length; i++) { %>
-                    <a href="#target-<%= i %>" class="mdl-color-text--grey-100 mdl-layout__tab<% if(i === 0) { %> is-active<% } %>">
-                        <%= folders[i] %>
-                    </a>
+                    <a href="#target-<%= i %>" class="mdl-color-text--grey-100 mdl-layout__tab<% if(i === 0) { %> is-active<% } %>"><%= folders[i] %></a>
                     <% } %>
                 </div>
             </header>
@@ -62,11 +60,6 @@
                         <iframe src="<%= folders[i] %>/"></iframe>
                     </div>
                     <% } %>
-
-                    <!-- sassdocs -->
-                    <div class="mdl-layout__tab-panel" id="scss">
-                        <iframe src="scss/"></iframe>
-                    </div>
 
                 </div>
             </main>
